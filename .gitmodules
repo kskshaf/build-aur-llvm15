@@ -1,0 +1,9 @@
+[submodule "clang15"]
+	path = clang15
+	url = https://aur.archlinux.org/clang15.git
+[submodule "llvm15"]
+	path = llvm15
+	url = https://aur.archlinux.org/clang15.git
+[submodule "compiler-rt15"]
+	path = compiler-rt15
+	url = https://aur.archlinux.org/clang15.git
