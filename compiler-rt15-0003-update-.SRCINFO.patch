@@ -1,0 +1,32 @@
+From 08411a593e27957f3875294cd49b4bf862fa72ea Mon Sep 17 00:00:00 2001
+From: kskshaf <118548920+kskshaf@users.noreply.github.com>
+Date: Fri, 12 Jul 2024 14:42:44 +0800
+Subject: [PATCH 3/3] update .SRCINFO
+
+---
+ .SRCINFO | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+diff --git a/.SRCINFO b/.SRCINFO
+index 8298e13..51444a4 100644
+--- a/.SRCINFO
++++ b/.SRCINFO
+@@ -15,11 +15,15 @@ pkgbase = compiler-rt15
+ 	source = https://github.com/llvm/llvm-project/releases/download/llvmorg-15.0.7/compiler-rt-15.0.7.src.tar.xz.sig
+ 	source = https://github.com/llvm/llvm-project/releases/download/llvmorg-15.0.7/cmake-15.0.7.src.tar.xz
+ 	source = https://github.com/llvm/llvm-project/releases/download/llvmorg-15.0.7/cmake-15.0.7.src.tar.xz.sig
++	source = https://github.com/llvm/llvm-project/releases/download/llvmorg-15.0.7/llvm-15.0.7.src.tar.xz
++	source = https://github.com/llvm/llvm-project/releases/download/llvmorg-15.0.7/llvm-15.0.7.src.tar.xz.sig
+ 	validpgpkeys = 474E22316ABF4785A88C6E8EA2C794A986419D8A
+ 	sha256sums = 353832c66cce60931ea0413b3c071faad59eefa70d02c97daa8978b15e4b25b7
+ 	sha256sums = SKIP
+ 	sha256sums = 8986f29b634fdaa9862eedda78513969fe9788301c9f2d938f4c10a3e7a3e7ea
+ 	sha256sums = SKIP
++	sha256sums = 4ad8b2cc8003c86d0078d15d987d84e3a739f24aae9033865c027abae93ee7a4
++	sha256sums = SKIP
+ 	makedepends_x86_64 = lib32-gcc-libs
+ 
+ pkgname = compiler-rt15
+-- 
+2.45.1
+

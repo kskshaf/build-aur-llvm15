@@ -1,0 +1,24 @@
+From 9e8740877a81b1ecc31c24b721faaeea1f3dc881 Mon Sep 17 00:00:00 2001
+From: kskshaf <118548920+kskshaf@users.noreply.github.com>
+Date: Fri, 12 Jul 2024 14:40:37 +0800
+Subject: [PATCH 2/3] fix llvm-config path
+
+---
+ PKGBUILD | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/PKGBUILD b/PKGBUILD
+index c440e88..f40141c 100644
+--- a/PKGBUILD
++++ b/PKGBUILD
+@@ -41,6 +41,7 @@ build() {
+     -DCMAKE_INSTALL_PREFIX=/usr/lib/llvm15
+     -DCMAKE_SKIP_RPATH=ON
+     -DCOMPILER_RT_INSTALL_PATH=/usr/lib/llvm15/lib/clang/$pkgver
++    -DLLVM_CONFIG_PATH=/usr/lib/llvm15/bin/llvm-config
+   )
+   cmake .. "${cmake_args[@]}"
+   ninja
+-- 
+2.45.1
+
